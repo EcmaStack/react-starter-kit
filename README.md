@@ -1,4 +1,4 @@
-## React Starter Kit — "[isomorphic](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)" web app boilerplate
+## React Starter Kit (forked by EcmaStack) — this is a redux implementation
 
 > [React Starter Kit](https://www.reactstarterkit.com) is an opinionated
 > boilerplate for web development built on top of [Node.js](https://nodejs.org/),
