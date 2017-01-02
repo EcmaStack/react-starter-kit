@@ -5,6 +5,12 @@ export const host = process.env.WEBSITE_HOSTNAME || `localhost:${port}`;
 
 export const databaseUrl = process.env.DATABASE_URL || 'sqlite:database.sqlite';
 
+// TODO: set based on process.env
+export const apiHost = 'https://ecmastack.com';
+
+// If app is running in any environment other than development - always use HTTPS
+export const urlProtocol = process.env.NODE_ENV === 'development' ? 'http' : 'https';
+
 export const analytics = {
 
   // https://analytics.google.com/
